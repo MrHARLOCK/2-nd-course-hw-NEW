@@ -70,11 +70,11 @@ a {
   background: #000915;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
 }
 .box__game {
   width: 378px;
-  height: 300px;
   position: relative;
 }
 .box__img {
@@ -133,5 +133,8 @@ a {
   }
   .top__button {
     margin: auto;
+  }
+  .box__text {
+    left: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

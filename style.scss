@@ -75,11 +75,11 @@ a {
    background: #000915;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 32px;
 
    &__game {
       width: 378px;
-      height: 300px;
       position: relative;
    }
 
