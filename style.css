@@ -78,6 +78,7 @@ a {
   position: relative;
 }
 .box__img {
+  width: 100%;
   transition: all 0.4s;
   border-radius: 16px;
 }
@@ -95,4 +96,4 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
