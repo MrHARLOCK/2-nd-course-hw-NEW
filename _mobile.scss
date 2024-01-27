@@ -1,0 +1,42 @@
+@media (min-width: 768px) and (max-width: 1250px) {
+   .center {
+      padding-left: 24px;
+      padding-right: 24px;
+   }
+}
+
+@media (max-width: 767px) {
+   .center {
+      padding-left: calc(50% - 343px / 2);
+      padding-right: calc(50% - 343px / 2);
+   }
+
+   .top {
+      height: 735px;
+
+      &__heading {
+         padding-top: 238.69px;
+         padding-bottom: 32.95px;
+         color: #fff;
+         text-align: center;
+         font-size: 32px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+      }
+
+      &__text {
+         padding-bottom: 32.95px;
+         color: #fff;
+         text-align: center;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 22px;
+      }
+
+      &__button {
+         margin: auto;
+      }
+   }
+}

@@ -24,7 +24,7 @@ a {
    height: 1024px;
 
    &__heading {
-      width: 760px;
+      max-width: 760px;
       padding-top: 217.1px;
       padding-bottom: 32px;
       color: #fff;
@@ -35,7 +35,7 @@ a {
    }
 
    &__text {
-      width: 481px;
+      max-width: 481px;
       padding-bottom: 44px;
       color: #fff;
       font-size: 18px;
@@ -84,6 +84,7 @@ a {
    }
 
    &__img {
+      width: 100%;
       transition: all 0.4s;
       border-radius: 16px;
 
@@ -105,3 +106,4 @@ a {
       line-height: 32px;
    }
 }
+@import "mobile";
