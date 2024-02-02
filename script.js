@@ -39,17 +39,17 @@ alert(`создатель языка программирования JavaScript
 */
 
 /*
-let a = 10;
+let numer = 10;
 
-let b = 2;
+let numb = 2;
 
-alert(a + b);
+alert(numer + numb);
 
-alert(a - b);
+alert(numer - numb);
 
-alert(a * b);
+alert(numer * numb);
 
-alert(a / b);
+alert(numer / numb);
 */
 
 /*
@@ -71,11 +71,11 @@ alert(`2 в 5-ой степени будет ${result}`);
 */
 
 /*
-let a = 9;
+let alt = 9;
 
-let b = 2;
+let rot = 2;
 
-alert(a % b);
+alert(alt % rot);
 */
 
 /*
@@ -116,7 +116,7 @@ alert(age);
 let user = {
    name: 'Grigori',
    age: 28,
-   isAdmin: Boolean('yes'),
+   isAdmin: true,
 };
 
 console.log(typeof user['name']);
