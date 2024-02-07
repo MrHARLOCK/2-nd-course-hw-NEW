@@ -97,3 +97,53 @@ switch (monthNumber) {
    default: alert('Не верный номер!!!')
       break;
 }
+
+/*Задание 7*/
+/*
+let num = prompt('Пожалуйста, введите любое число');
+
+console.log(isNaN(num));
+
+if (num % 2) {
+   alert('Число нечетное');
+} else {
+   alert('Число четное');
+}
+
+/*Задание 8*/
+/*
+let clientOS = Number(prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".'));
+
+if (clientOS === 0) {
+   alert('Установите версию приложения для iOS по ссылке');
+} else if (clientOS === 1) {
+   alert('Установите версию приложения для Android по ссылке');
+} else {
+   alert('Вы ввели не верное значение!');
+}
+
+/*Задание 9*/
+/*
+let clientOS = Number(prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".'));
+
+let clientDeviceYear = Number(prompt('Укажите год выпуска телефона'));
+
+if (clientOS === 0) {
+   if (clientDeviceYear >= 2015) {
+      alert('Установите версию приложения для iOS по ссылке');
+   } else if (clientDeviceYear <= 2015) {
+      alert('Установите облегченную версию приложения для iOS по ссылке');
+   } else {
+      alert('Вы ввели не верное значение!');
+   }
+} else if (clientOS === 1) {
+   if (clientDeviceYear >= 2015) {
+      alert('Установите версию приложения для Android по ссылке');
+   } else if (clientDeviceYear <= 2015) {
+      alert('Установите облегченную версию приложения для Android по ссылке');
+   } else {
+      alert('Вы ввели не верное значение!');
+   }
+} else {
+   alert('Вы ввели не верное значение!');
+}*/
