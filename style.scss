@@ -24,7 +24,7 @@ a {
    height: 1024px;
 
    &__heading {
-      width: 760px;
+      max-width: 760px;
       padding-top: 217.1px;
       padding-bottom: 32px;
       color: #fff;
@@ -35,7 +35,7 @@ a {
    }
 
    &__text {
-      width: 481px;
+      max-width: 481px;
       padding-bottom: 44px;
       color: #fff;
       font-size: 18px;
@@ -75,11 +75,11 @@ a {
    background: #000915;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 32px;
 
    &__game {
       width: 378px;
-      height: 300px;
       position: relative;
    }
 
@@ -106,3 +106,4 @@ a {
       line-height: 32px;
    }
 }
+
