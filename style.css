@@ -96,4 +96,45 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 1250px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 171.5px);
+    padding-right: calc(50% - 171.5px);
+  }
+  .top {
+    height: 735px;
+  }
+  .top__heading {
+    padding-top: 238.69px;
+    padding-bottom: 32.95px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .top__text {
+    padding-bottom: 32.95px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .top__button {
+    margin: auto;
+  }
+  .box__text {
+    left: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
