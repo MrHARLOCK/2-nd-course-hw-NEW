@@ -25,4 +25,14 @@ while (numSeven <= 22) {
    numSeven++;
 }
 
+/*Задание 4*/
+/*
+const obj = {
+   'Коля': '200',
+   'Вася': '300',
+   'Петя': '400'
+}
 
+for (let salary in obj) {
+   alert(`${salary} — зарплата ${obj[salary]} долларов.`);
+}
