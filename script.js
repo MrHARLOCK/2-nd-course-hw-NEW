@@ -16,3 +16,13 @@ while (num <= 5) {
    num++;
 }
 
+/*Задание 3*/
+/*
+let numSeven = 7;
+
+while (numSeven <= 22) {
+   console.log(numSeven);
+   numSeven++;
+}
+
+
