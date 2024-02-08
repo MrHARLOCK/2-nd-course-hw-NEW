@@ -51,3 +51,18 @@ while (n >= 50) {
 console.log(n);
 
 console.log(num);
+
+/*Задание 6*/
+
+let friday = 2;
+
+do {
+   console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+
+   friday += 6;
+
+   friday++;
+
+}
+
+while (friday <= 31);
