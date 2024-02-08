@@ -36,3 +36,18 @@ const obj = {
 for (let salary in obj) {
    alert(`${salary} — зарплата ${obj[salary]} долларов.`);
 }
+
+/*Задание 5*/
+/*
+let n = 1000;
+
+let num = 0;
+
+while (n >= 50) {
+   n /= 2;
+   num++;
+}
+
+console.log(n);
+
+console.log(num);
