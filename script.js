@@ -1,65 +1,66 @@
 /*Задание 1*/
 /*
-let hello = 1;
-
-while (hello <= 2) {
-   alert('Привет');
-   hello++;
+function returnsLess(numOne, numTwo) {
+   if (numOne < numTwo) {
+      return numOne;
+   } else {
+      return numTwo;
+   }
 }
+
+console.log(returnsLess(8, 4));
+console.log(returnsLess(6, 6));
+console.log(returnsLess(2, 6));
 
 /*Задание 2*/
 /*
-let num = 1;
-
-while (num <= 5) {
-   console.log(num);
-   num++;
+function oddEven(numOne) {
+   if (numOne % 2 == 0) {
+      return ('Число четное');
+   } else {
+      return ('Число нечетное');
+   }
 }
+
+console.log(oddEven(22));
+console.log(oddEven(99));
 
 /*Задание 3*/
 /*
-let numSeven = 7;
-
-while (numSeven <= 22) {
-   console.log(numSeven);
-   numSeven++;
+function squareNum(numOne) {
+   console.log(numOne ** 2);
 }
+
+squareNum(5);
+squareNum(9);
+squareNum(256);
+
+function returnSquareOfNumb(numOne) {
+   return (numOne ** 2);
+}
+
+console.log(returnSquareOfNumb(51));
+console.log(returnSquareOfNumb(94));
+console.log(returnSquareOfNumb(2563));
 
 /*Задание 4*/
 /*
-const obj = {
-   'Коля': '200',
-   'Вася': '300',
-   'Петя': '400'
+
+function howOld() {
+   let answer = Number(prompt('Введите ваш возраст'));
+
+   if (!answer) {
+      alert('НЕ ЗАДУРЯЙСЯ ;)');
+   } else if (answer < 0) {
+      alert('Вы ввели неправильное значение');
+   } else if (answer <= 12) {
+      alert('Привет, друг!');
+   } else if (answer >= 13) {
+      alert('Добро пожаловать!');
+   }
 }
 
-for (let salary in obj) {
-   alert(`${salary} — зарплата ${obj[salary]} долларов.`);
-}
+howOld();
 
 /*Задание 5*/
-/*
-let n = 1000;
 
-let num = 0;
-
-while (n >= 50) {
-   n /= 2;
-   num++;
-}
-
-console.log(n);
-
-console.log(num);
-
-/*Задание 6*/
-/*
-let friday = 2;
-
-do {
-   console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
-
-   friday += 7;
-}
-
-while (friday <= 31);*/
