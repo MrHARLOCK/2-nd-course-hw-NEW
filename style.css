@@ -79,11 +79,11 @@ a {
 }
 .box__img {
   width: 100%;
-  transition: all 0.4s;
+  transition: all 0.7s;
   border-radius: 16px;
 }
 .box__img:hover {
-  transform: scale(1.02);
+  transform: scale(1.1);
   box-shadow: 0 0 5px #ccc;
   border: 3px solid #44d2ff;
 }
