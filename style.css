@@ -99,23 +99,6 @@ a {
   line-height: 32px;
 }
 
-.main {
-  flex-grow: 1;
-}
-
-.games.flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 32px;
-}
-
-.games {
-  min-height: 556px;
-  background: #000915;
-  padding-block: 128px;
-}
-
 @media (min-width: 768px) and (max-width: 1250px) {
   .center {
     padding-left: 24px;
