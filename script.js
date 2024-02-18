@@ -93,44 +93,42 @@ if (!num) {
 }
 
 /*Задание 8*/
+/*
+let clientOS = 0;
 
-let clientOS = Number(prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".'));
-
-
-
-if (clientOS === false) {
-   alert('Вы ввели не верное значение!')
-} else if (clientOS === 0) {
-   alert('Установите версию приложения для iOS по ссылке');
-} else if (clientOS === 1) {
-   alert('Установите версию приложения для Android по ссылке');
-} else {
-   alert('Вы ввели не верное значение!')
+switch (clientOS) {
+   case 0:
+      console.log('Установите версию приложения для iOS по ссылке');
+      break;
+   case 1:
+      console.log('Установите версию приложения для Android по ссылке');
+      break;
+   default:
+      console.log('Вы ввели не верное значение!');
+      break;
 }
 
-
 /*Задание 9*/
-/*
-let clientOS = Number(prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".'));
 
-let clientDeviceYear = Number(prompt('Укажите год выпуска телефона'));
+let clientOS = 0;
+let clientDeviceYear = 2015;
 
-if (clientOS === 0) {
-   if (clientDeviceYear >= 2015) {
-      alert('Установите версию приложения для iOS по ссылке');
-   } else if (clientDeviceYear <= 2015) {
-      alert('Установите облегченную версию приложения для iOS по ссылке');
-   } else {
-      alert('Вы ввели не верное значение!');
-   }
-} else if (clientOS === 1) {
-   if (clientDeviceYear >= 2015) {
-      alert('Установите версию приложения для Android по ссылке');
-   } else if (clientDeviceYear <= 2015) {
-      alert('Установите облегченную версию приложения для Android по ссылке');
-   } else {
-      alert('Вы ввели не верное значение!');
+if (clientDeviceYear >= 2015) {
+   switch (clientOS) {
+      case 0:
+         console.log('Установите версию приложения для iOS по ссылке');
+         break;
+      case 1:
+         console.log('Установите версию приложения для Android по ссылке');
+         break;
    }
 } else {
-   alert('Вы ввели не верное значение!');
-}*/
+   switch (clientOS) {
+      case 0:
+         console.log('Установите облегченную версию приложения для iOS по ссылке');
+         break;
+      case 1:
+         console.log('Установите облегченную версию приложения для Android по ссылке');
+         break;
+   }
+}
