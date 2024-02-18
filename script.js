@@ -82,31 +82,32 @@ switch (monthNumber) {
 /*
 let num = Number(prompt('Пожалуйста, введите любое число'));
 
-if (isNaN(num) === true) {
+if (!num) {
+   alert('ЧТО ТО ПОШЛО НЕ ТАК!!!)')
+} else if (isNaN(num)) {
    alert('НЕ ЧИСЛО!!!!');
 } else if (num % 2) {
    alert('ЧИСЛО НЕЧЕТНОЕ');
 } else if (num !== (num % 2)) {
    alert('ЧИСЛО ЧЕТНОЕ');
-} else {
-   alert('ЧТО ТО ПОШЛО НЕ ТАК!!!)');
 }
 
 /*Задание 8*/
-/*
+
 let clientOS = Number(prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".'));
 
-switch (clientOS) {
-   case 0:
-      alert('Установите версию приложения для iOS по ссылке');
-      break;
-   case 1:
-      alert('Установите версию приложения для Android по ссылке');
-      break;
-   default:
-      alert('Вы ввели не верное значение!')
-      break;
+
+
+if (clientOS === false) {
+   alert('Вы ввели не верное значение!')
+} else if (clientOS === 0) {
+   alert('Установите версию приложения для iOS по ссылке');
+} else if (clientOS === 1) {
+   alert('Установите версию приложения для Android по ссылке');
+} else {
+   alert('Вы ввели не верное значение!')
 }
+
 
 /*Задание 9*/
 /*
