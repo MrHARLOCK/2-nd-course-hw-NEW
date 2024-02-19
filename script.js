@@ -93,23 +93,25 @@ if (!num) {
 }
 
 /*Задание 8*/
-/*
-let clientOS = 0;
 
-switch (clientOS) {
-   case 0:
-      console.log('Установите версию приложения для iOS по ссылке');
-      break;
-   case 1:
-      console.log('Установите версию приложения для Android по ссылке');
-      break;
-   default:
-      console.log('Вы ввели не верное значение!');
-      break;
+let clientOS = prompt('Для установки приложения укажите какой ОС Вы пользуетесь? Если iOS, то введите "0". Если Android, то введите "1".');
+
+if (clientOS === null || clientOS.trim() === '') {
+   alert('Вы ввели не верное значение!');
+} else {
+   clientOS = Number(clientOS);
+
+   if (isNaN(clientOS) || (clientOS !== 0 && clientOS !== 1)) {
+      alert('Вы ввели не верное значение!');
+   } else if (clientOS === 0) {
+      alert('Установите версию приложения для iOS по ссылке');
+   } else if (clientOS === 1) {
+      alert('Установите версию приложения для Android по ссылке');
+   }
 }
 
 /*Задание 9*/
-
+/*
 let clientOS = 0;
 let clientDeviceYear = 2015;
 
@@ -131,4 +133,4 @@ if (clientDeviceYear >= 2015) {
          console.log('Установите облегченную версию приложения для Android по ссылке');
          break;
    }
-}
+}*/
