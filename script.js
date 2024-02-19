@@ -1,5 +1,5 @@
 /*Задание 1*/
-/*
+
 function returnsLess(numOne, numTwo) {
    if (numOne < numTwo) {
       return numOne;
@@ -13,7 +13,7 @@ console.log(returnsLess(6, 6));
 console.log(returnsLess(2, 6));
 
 /*Задание 2*/
-/*
+
 function oddEven(numOne) {
    if (numOne % 2 == 0) {
       return ('Число четное');
@@ -26,7 +26,7 @@ console.log(oddEven(22));
 console.log(oddEven(99));
 
 /*Задание 3*/
-/*
+
 function squareNum(numOne) {
    console.log(numOne ** 2);
 }
@@ -44,7 +44,7 @@ console.log(returnSquareOfNumb(94));
 console.log(returnSquareOfNumb(2563));
 
 /*Задание 4*/
-/*
+
 
 function howOld() {
    let answer = Number(prompt('Введите ваш возраст'));
@@ -55,7 +55,7 @@ function howOld() {
       alert('Вы ввели неправильное значение');
    } else if (answer <= 12) {
       alert('Привет, друг!');
-   } else if (answer >= 13) {
+   } else {
       alert('Добро пожаловать!');
    }
 }
@@ -63,7 +63,7 @@ function howOld() {
 howOld();
 
 /*Задание 5*/
-/*
+
 function checkingNumbers(numOne, numTwo) {
    if ((isNaN(numOne)) || (isNaN(numTwo))) {
       return ('Одно или оба значения не являются числом');
@@ -78,7 +78,7 @@ console.log(checkingNumbers('2', 2));
 console.log(checkingNumbers('2', '2'));
 
 /*Задание 6*/
-/*
+
 function countingNumbers() {
    const userAnswer = Number(prompt('Введите число.'));
 
@@ -94,13 +94,13 @@ function countingNumbers() {
 console.log(countingNumbers());
 
 /*Задание 7*/
-/*
+
 function getRectangleArea() {
-   return (this.radius ** 2) * 3.14;
+   return (this.radius ** 2) * Math.PI;
 }
 
 function getRectanglePerimeter() {
-   return (this.radius * 2) * 3.14;
+   return (this.radius * 2) * Math.PI;
 }
 
 const circle1 = {
