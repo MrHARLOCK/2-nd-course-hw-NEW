@@ -43,18 +43,19 @@
 
 /*Задание 6*/
 
-// let arr = [9, 8, 7, 'a', 6, 5].sort();
+// const arr = [9, 8, 7, 'a', 6, 5].sort();
 
-// arrDelEl = arr.pop();
+// arr.pop();
 
 // console.log(arr);
 
-/*Задание 7*/
+// /*Задание 7*/
 
-// arr = arr.reverse();
+// arr.reverse();
 
 // let answer = +prompt('Угадай число в массиве');
-// if (arr.includes(answer)) {
+
+// if (!isNaN(answer) && arr.includes(answer)) {
 //    alert('Угадал');
 // } else {
 //    alert('Не угадал');
@@ -69,6 +70,10 @@
 /*Задание 9*/
 
 // const multArr = [[1, 2, 3,], [4, 5, 6]];
+
+// const flatArr = multArr.flat();
+
+// console.log(flatArr);
 
 // console.log(multArr.reduce(function (a, b) {
 //    return a.concat(b);
@@ -97,9 +102,9 @@
 /*Задание 10*/
 
 // let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let result = 0;
-// for (let i = 0; i < array.length; i++) {
-//    console.log(result += array[i]);
+
+// for (let i = 0; i < array.length - 1; i++) {
+//    console.log(array[i] + array[i + 1]);
 // }
 
 /*Задание 11*/
