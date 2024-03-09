@@ -127,3 +127,18 @@
 // }
 // console.log(filterPositive([-1, 0, 5, -10, 56]));
 // console.log(filterPositive([-25, 25, 0, -1000, -2]));
+
+let array = [];
+let evenArray = [];
+
+for (let i = 0; i < 10; i++) {
+   let randomNumber = Math.floor(Math.random() * (10 - 1) + 1);
+   array.push(randomNumber);
+   if (!(randomNumber % 2)) {
+      evenArray.push(randomNumber);
+   }
+}
+
+console.log(array);
+console.log(evenArray);
+
