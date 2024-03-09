@@ -1,34 +1,40 @@
 /*Задание 1*/
-/*
-let hello = 1;
 
-while (hello <= 2) {
-   alert('Привет');
-   hello++;
+function returnsLess(numOne, numTwo) {
+   if (numOne < numTwo) {
+      return numOne;
+   } else {
+      return numTwo;
+   }
 }
+
+console.log(returnsLess(8, 4));
+console.log(returnsLess(6, 6));
+console.log(returnsLess(2, 6));
 
 /*Задание 2*/
-/*
-let num = 1;
 
-while (num <= 5) {
-   console.log(num);
-   num++;
+function oddEven(numOne) {
+   if (numOne % 2 == 0) {
+      return ('Число четное');
+   } else {
+      return ('Число нечетное');
+   }
 }
+
+console.log(oddEven(22));
+console.log(oddEven(99));
 
 /*Задание 3*/
-/*
-let numSeven = 7;
 
-while (numSeven <= 22) {
-   console.log(numSeven);
-   numSeven++;
+function squareNum(numOne) {
+   console.log(numOne ** 2);
 }
 
-/*Задание 4*/
-/*
 
 }
+
+howOld();
 
 /*Задание 5*/
-/*
+

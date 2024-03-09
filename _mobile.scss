@@ -3,6 +3,11 @@
       padding-left: 24px;
       padding-right: 24px;
    }
+   .games {
+      &__box {
+         flex-direction: column;
+      }
+   }
 }
 
 @media (max-width: 767px) {
@@ -43,6 +48,27 @@
    .box {
       &__text {
          left: 16px;
+      }
+   }
+   .games {
+      &__box {
+         flex-direction: column;
+      }
+      &__desc {
+         padding-top: 51px;
+         text-align: center;
+         align-items: center;
+      }
+      &__title {
+         font-size: 32px;
+         font-weight: 700;
+         line-height: 39px;
+      }
+      &__text {
+         width: 343px;
+         font-size: 14px;
+         font-weight: 300;
+         line-height: 22px;
       }
    }
 }
