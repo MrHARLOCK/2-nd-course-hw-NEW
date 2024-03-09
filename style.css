@@ -84,7 +84,7 @@ a {
   border-radius: 16px;
 }
 .box__img:hover {
-  transform: scale(1.05);
+
   box-shadow: 0 0 5px #ccc;
   border: 3px solid #44d2ff;
 }
