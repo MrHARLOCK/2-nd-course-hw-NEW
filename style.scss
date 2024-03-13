@@ -90,7 +90,7 @@ a {
       border-radius: 16px;
 
       &:hover {
-         transform: scale(1.1);
+
          box-shadow: 0 0 5px #ccc;
          border: 3px solid #44d2ff;
       }
@@ -107,6 +107,7 @@ a {
       line-height: 32px;
    }
 }
+
 
 
 @import "mobile";

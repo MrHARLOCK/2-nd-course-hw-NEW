@@ -1,34 +1,31 @@
 /*Задание 1*/
-/*
-let hello = 1;
 
-while (hello <= 2) {
-   alert('Привет');
-   hello++;
-}
+
+// const arr = [1, 5, 4, 10, 0, 3];
+
+// for (let item = 0; item < arr.length; item++) {
+//    console.log(arr[item]);
+//    if (arr[item] === 10) break;
+// }
 
 /*Задание 2*/
-/*
-let num = 1;
 
-while (num <= 5) {
-   console.log(num);
-   num++;
-}
+
+// console.log(arr.indexOf(4));
 
 /*Задание 3*/
-/*
-let numSeven = 7;
 
-while (numSeven <= 22) {
-   console.log(numSeven);
-   numSeven++;
-}
+// let multArr = [];
 
-/*Задание 4*/
-/*
+// for (let i = 0; i < 3; i++) {
+//    multArr[i] = [];
 
-}
+//    for (let j = 0; j < 3; j++) {
+//       multArr[i].push(1);
+//    }
+// }
+
+// console.log(multArr);
 
 /*Задание 5*/
 
