@@ -1,40 +1,31 @@
 /*Задание 1*/
 
-function returnsLess(numOne, numTwo) {
-   if (numOne < numTwo) {
-      return numOne;
-   } else {
-      return numTwo;
-   }
-}
 
-console.log(returnsLess(8, 4));
-console.log(returnsLess(6, 6));
-console.log(returnsLess(2, 6));
+// const arr = [1, 5, 4, 10, 0, 3];
+
+// for (let item = 0; item < arr.length; item++) {
+//    console.log(arr[item]);
+//    if (arr[item] === 10) break;
+// }
 
 /*Задание 2*/
 
-function oddEven(numOne) {
-   if (numOne % 2 == 0) {
-      return ('Число четное');
-   } else {
-      return ('Число нечетное');
-   }
-}
 
-console.log(oddEven(22));
-console.log(oddEven(99));
+// console.log(arr.indexOf(4));
 
 /*Задание 3*/
 
-function squareNum(numOne) {
-   console.log(numOne ** 2);
-}
+// let multArr = [];
 
+// for (let i = 0; i < 3; i++) {
+//    multArr[i] = [];
 
-}
+//    for (let j = 0; j < 3; j++) {
+//       multArr[i].push(1);
+//    }
+// }
 
-howOld();
+// console.log(multArr);
 
 /*Задание 5*/
 
