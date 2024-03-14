@@ -34,3 +34,11 @@
 
 // console.log(getMaxOfArray(arrNum));
 // console.log(getMinOfArray(arrNum));
+
+// /*Задание 5*/
+
+// function getRandomInt() {
+//   return Math.floor(Math.random() * 10);
+// }
+
+// console.log(getRandomInt());
