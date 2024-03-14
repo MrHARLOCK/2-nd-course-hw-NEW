@@ -22,3 +22,15 @@
 // console.log(Math.round(num));
 
 // /*Задание 4*/
+
+// const arrNum = [52, 53, 49, 77, 21, 32];
+
+// function getMaxOfArray(arrNum) {
+//   return Math.max.apply(null, arrNum);
+// }
+// function getMinOfArray(arrNum) {
+//   return Math.min.apply(null, arrNum);
+// }
+
+// console.log(getMaxOfArray(arrNum));
+// console.log(getMinOfArray(arrNum));
