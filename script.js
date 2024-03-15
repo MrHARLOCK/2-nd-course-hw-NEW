@@ -75,3 +75,7 @@
 // console.log(getRandomArbitrary(5, 9));
 
 // /*Задание 8*/
+
+// let currentDate = new Date();
+
+// console.log(currentDate);
