@@ -42,3 +42,18 @@
 // }
 
 // console.log(getRandomInt());
+
+// /*Задание 6*/
+
+// function numRandom(num) {
+//   const arr = [];
+//   const n = Math.floor(num / 2);
+
+//   for (let i = 0; i < n; i++) {
+//     arr.push(Math.floor(Math.random() * num + 1));
+//   }
+
+//   return arr;
+// }
+
+// console.log(numRandom(15));
