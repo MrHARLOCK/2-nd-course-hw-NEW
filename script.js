@@ -94,3 +94,22 @@
 // console.log(`Сегодня ${myDate}`);
 
 // /*Задание 10*/
+
+// function ruDate() {
+//    const currentDate = new Date();
+//    const options = {
+//       year: 'numeric',
+//       month: 'long',
+//       day: 'numeric'
+//    };
+//    const optionsDay = {
+//       weekday: 'long'
+//    };
+//    const formattedDate = currentDate.toLocaleDateString('ru-RU', options);
+//    const formattedDay = currentDate.toLocaleDateString('ru-RU', optionsDay);
+
+//    return console.log(`Дата: ${formattedDate} — это ${formattedDay}\nВремя: ${currentDate.toLocaleTimeString('ru-RU')}`);
+// }
+// ruDate()
+
+// /*Задание 11. Работа с макетом*/
