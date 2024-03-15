@@ -79,3 +79,18 @@
 // let currentDate = new Date();
 
 // console.log(currentDate);
+
+// /*Задание 9*/
+
+// let myDate = new Date();
+
+// console.log(+myDate);
+
+// let daysSeventyThree = 73 * 24 * 60 * 60 * 1000;
+// let searchDate = +myDate + daysSeventyThree;
+// let inSeventyThreeDays = new Date(searchDate);
+
+// console.log(`Через 73 дня будет ${inSeventyThreeDays}`);
+// console.log(`Сегодня ${myDate}`);
+
+// /*Задание 10*/
