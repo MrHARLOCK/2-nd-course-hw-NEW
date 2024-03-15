@@ -57,3 +57,21 @@
 // }
 
 // console.log(numRandom(15));
+
+// /*Задание 7*/
+
+// function getRandomIntInclusive(min, max) {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min + 1) + min);
+// }
+
+// console.log(getRandomIntInclusive(5, 9));
+
+// function getRandomArbitrary(min, max) {
+//   return Math.random() * (max - min) + min;
+// }
+
+// console.log(getRandomArbitrary(5, 9));
+
+// /*Задание 8*/
