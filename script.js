@@ -1,115 +1,115 @@
-// /*Задание 1*/
+/*Задание 1*/
 
-// let text = 'js';
-// console.log(text.toUpperCase());
+let text = 'js';
+console.log(text.toUpperCase());
 
-// /*Задание 2*/
+/*Задание 2*/
 
-// const searchStart = (arr, str) => {
-//   return arr.filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
-// }
+const searchStart = (arr, str) => {
+   return arr.filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
+}
 
-// console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'));
-// console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
-// console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'));
+console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'));
+console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
+console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'));
 
-// /*Задание 3*/
+/*Задание 3*/
 
-// let num = 32.58884
+let num = 32.58884
 
-// console.log(Math.floor(num));
-// console.log(Math.ceil(num));
-// console.log(Math.round(num));
+console.log(Math.floor(num));
+console.log(Math.ceil(num));
+console.log(Math.round(num));
 
-// /*Задание 4*/
+/*Задание 4*/
 
-// const arrNum = [52, 53, 49, 77, 21, 32];
+const arrNum = [52, 53, 49, 77, 21, 32];
 
-// function getMaxOfArray(arrNum) {
-//   return Math.max.apply(null, arrNum);
-// }
-// function getMinOfArray(arrNum) {
-//   return Math.min.apply(null, arrNum);
-// }
+function getMaxOfArray(arrNum) {
+   return Math.max.apply(null, arrNum);
+}
+function getMinOfArray(arrNum) {
+   return Math.min.apply(null, arrNum);
+}
 
-// console.log(getMaxOfArray(arrNum));
-// console.log(getMinOfArray(arrNum));
+console.log(getMaxOfArray(arrNum));
+console.log(getMinOfArray(arrNum));
 
-// /*Задание 5*/
+/*Задание 5*/
 
-// function getRandomInt() {
-//   return Math.floor(Math.random() * 10);
-// }
+function getRandomInt() {
+   return Math.floor(Math.random() * 10);
+}
 
-// console.log(getRandomInt());
+console.log(getRandomInt());
 
-// /*Задание 6*/
+/*Задание 6*/
 
-// function numRandom(num) {
-//   const arr = [];
-//   const n = Math.floor(num / 2);
+function numRandom(num) {
+   const arr = [];
+   const n = Math.floor(num / 2);
 
-//   for (let i = 0; i < n; i++) {
-//     arr.push(Math.floor(Math.random() * num + 1));
-//   }
+   for (let i = 0; i < n; i++) {
+      arr.push(Math.floor(Math.random() * num + 1));
+   }
 
-//   return arr;
-// }
+   return arr;
+}
 
-// console.log(numRandom(15));
+console.log(numRandom(15));
 
-// /*Задание 7*/
+/*Задание 7*/
 
-// function getRandomIntInclusive(min, max) {
-//   min = Math.ceil(min);
-//   max = Math.floor(max);
-//   return Math.floor(Math.random() * (max - min + 1) + min);
-// }
+function getRandomIntInclusive(min, max) {
+   min = Math.ceil(min);
+   max = Math.floor(max);
+   return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
-// console.log(getRandomIntInclusive(5, 9));
+console.log(getRandomIntInclusive(5, 9));
 
-// function getRandomArbitrary(min, max) {
-//   return Math.random() * (max - min) + min;
-// }
+function getRandomArbitrary(min, max) {
+   return Math.random() * (max - min) + min;
+}
 
-// console.log(getRandomArbitrary(5, 9));
+console.log(getRandomArbitrary(5, 9));
 
-// /*Задание 8*/
+/*Задание 8*/
 
-// let currentDate = new Date();
+let currentDate = new Date();
 
-// console.log(currentDate);
+console.log(currentDate);
 
-// /*Задание 9*/
+/*Задание 9*/
 
-// let myDate = new Date();
+let myDate = new Date();
 
-// console.log(+myDate);
+console.log(+myDate);
 
-// let daysSeventyThree = 73 * 24 * 60 * 60 * 1000;
-// let searchDate = +myDate + daysSeventyThree;
-// let inSeventyThreeDays = new Date(searchDate);
+let daysSeventyThree = 73 * 24 * 60 * 60 * 1000;
+let searchDate = +myDate + daysSeventyThree;
+let inSeventyThreeDays = new Date(searchDate);
 
-// console.log(`Через 73 дня будет ${inSeventyThreeDays}`);
-// console.log(`Сегодня ${myDate}`);
+console.log(`Через 73 дня будет ${inSeventyThreeDays}`);
+console.log(`Сегодня ${myDate}`);
 
-// /*Задание 10*/
+/*Задание 10*/
 
-// function ruDate() {
-//    const currentDate = new Date();
-//    const options = {
-//       year: 'numeric',
-//       month: 'long',
-//       day: 'numeric'
-//    };
-//    const optionsDay = {
-//       weekday: 'long'
-//    };
-//    const formattedDate = currentDate.toLocaleDateString('ru-RU', options);
-//    const formattedDay = currentDate.toLocaleDateString('ru-RU', optionsDay);
+function ruDate() {
+   const currentDate = new Date();
+   const options = {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+   };
+   const optionsDay = {
+      weekday: 'long'
+   };
+   const formattedDate = currentDate.toLocaleDateString('ru-RU', options);
+   const formattedDay = currentDate.toLocaleDateString('ru-RU', optionsDay);
 
-//    return console.log(`Дата: ${formattedDate} — это ${formattedDay}\nВремя: ${currentDate.toLocaleTimeString('ru-RU')}`);
-// }
-// ruDate()
+   return console.log(`Дата: ${formattedDate} — это ${formattedDay}\nВремя: ${currentDate.toLocaleTimeString('ru-RU')}`);
+}
+ruDate()
 
-// /*Задание 11. Работа с макетом*/
+/*Задание 11. Работа с макетом*/
