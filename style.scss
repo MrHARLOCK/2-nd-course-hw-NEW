@@ -3,27 +3,22 @@
    margin: 0;
    box-sizing: border-box;
 }
-
 body {
    font-family: "Montserrat", sans-serif;
 }
-
 a {
    text-decoration: none;
 }
-
 .center {
    padding-left: calc(50% - 600px);
    padding-right: calc(50% - 600px);
 }
-
 .top {
    background-image: url(./img/background.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    height: 1024px;
-
    &__heading {
       max-width: 760px;
       padding-top: 217.1px;
@@ -34,7 +29,6 @@ a {
       font-weight: 700;
       line-height: normal;
    }
-
    &__text {
       max-width: 481px;
       padding-bottom: 44px;
@@ -43,12 +37,10 @@ a {
       font-style: normal;
       font-weight: 400;
       line-height: 32px;
-
       &-bolt {
          font-weight: 700;
       }
    }
-
    &__button {
       width: 234.063px;
       height: 48.603px;
@@ -63,13 +55,11 @@ a {
       font-weight: 400;
       line-height: normal;
       transition: all 0.3s;
-
       &:hover {
          background: #eb443f;
       }
    }
 }
-
 .box {
    padding-top: 128px;
    padding-bottom: 128px;
@@ -78,24 +68,21 @@ a {
    flex-wrap: wrap;
    justify-content: center;
    gap: 32px;
-
    &__game {
       width: 378px;
       position: relative;
    }
-
    &__img {
       width: 100%;
       transition: all 0.7s;
       border-radius: 16px;
 
       &:hover {
-
+         transform: scale(1.05);
          box-shadow: 0 0 5px #ccc;
          border: 3px solid #44d2ff;
       }
    }
-
    &__text {
       bottom: 32px;
       left: 32px;
@@ -108,6 +95,62 @@ a {
    }
 }
 
+.games {
+   background: rgb(0, 9, 21);
+   &__reverse {
+      flex-direction: row-reverse;
+   }
+   &__box {
+      height: 800px;
+      display: flex;
+      align-items: center;
+      gap: 135px;
+   }
+   &__desc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      flex-direction: column;
+   }
+   &__title {
+      width: 584px;
+      color: rgb(255, 255, 255);
+      font-size: 48px;
+      font-weight: 700;
+   }
+   &__text {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 32px;
+      color: rgb(255, 255, 255);
+   }
+   &__button {
+      display: block;
+      width: 100%;
+      width: 234.06px;
+      height: 48.6px;
+      border-radius: 30px;
+      background: rgb(156, 3, 50);
+      border: 1px solid var(--magenta);
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.3s;
 
+      &_txt {
+         font-family: "Montserrat", sans-serif;
+         display: inline-block;
+      }
+      &:hover {
+         background: #eb443f;
+      }
+   }
+   &__img {
+      width: 100%;
+      max-width: 485px;
+      height: 333px;
+   }
+}
 
 @import "mobile";
