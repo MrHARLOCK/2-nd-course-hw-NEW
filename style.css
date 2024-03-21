@@ -118,7 +118,7 @@ a {
   flex-direction: column;
 }
 .games__title {
-  width: 584px;
+  max-width: 584px;
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 700;
@@ -212,7 +212,7 @@ a {
     line-height: 39px;
   }
   .games__text {
-    width: 343px;
+    max-width: 343px;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
