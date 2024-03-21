@@ -113,7 +113,7 @@ a {
       flex-direction: column;
    }
    &__title {
-      width: 584px;
+      max-width: 584px;
       color: rgb(255, 255, 255);
       font-size: 48px;
       font-weight: 700;
@@ -138,7 +138,7 @@ a {
       cursor: pointer;
       transition: all 0.3s;
 
-      &_txt {
+      &-txt {
          font-family: "Montserrat", sans-serif;
          display: inline-block;
       }
