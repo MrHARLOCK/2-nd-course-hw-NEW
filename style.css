@@ -143,7 +143,7 @@ a {
   cursor: pointer;
   transition: all 0.3s;
 }
-.games__button_txt {
+.games__button-txt {
   font-family: "Montserrat", sans-serif;
   display: inline-block;
 }
