@@ -46,3 +46,18 @@ const folk = [
 ];
 
 console.log(filter(folk, isMale));
+
+/*Задание 3*/
+
+let timeCounter = 0;
+
+const timeInterval = setInterval(() => {
+   console.log(new Date());
+   timeCounter += 3;
+   if (timeCounter >= 30) {
+      clearInterval(timeInterval);
+
+      console.log('30 секунд прошло');
+   }
+}, 3000);
+
