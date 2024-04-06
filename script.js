@@ -1,115 +1,85 @@
 /*Задание 1*/
 
-let text = 'js';
-console.log(text.toUpperCase());
+const people = [
+   { name: 'Глеб', age: 29 },
+   { name: 'Анна', age: 17 },
+   { name: 'Олег', age: 7 },
+   { name: 'Оксана', age: 47 }
+];
 
-/*Задание 2*/
+console.log(people.sort((a, b) => {
+   return a.age - b.age;
+}));
 
-const searchStart = (arr, str) => {
-   return arr.filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
-}
+// /*Задание 2*/
 
-console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'));
-console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
-console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'));
+// function isPositive(num) {
+//    return num > 0;
+// }
 
-/*Задание 3*/
+// function isMale(men) {
+//    return men.gender === 'male';
+// }
 
-let num = 32.58884
+// function filter(arr, ruleFunction) {
+//    const output = [];
+//    for (let item of arr) {
+//       if (ruleFunction(item)) {
+//          output.push(item);
+//       }
+//    }
+//    return output;
+// }
 
-console.log(Math.floor(num));
-console.log(Math.ceil(num));
-console.log(Math.round(num));
+// console.log(filter([3, -4, 1, 9], isPositive));
 
-/*Задание 4*/
+// const folk = [
+//    { name: 'Глеб', gender: 'male' },
+//    { name: 'Анна', gender: 'female' },
+//    { name: 'Олег', gender: 'male' },
+//    { name: 'Оксана', gender: 'female' }
+// ];
 
-const arrNum = [52, 53, 49, 77, 21, 32];
+// console.log(filter(folk, isMale));
 
-function getMaxOfArray(arrNum) {
-   return Math.max.apply(null, arrNum);
-}
-function getMinOfArray(arrNum) {
-   return Math.min.apply(null, arrNum);
-}
+// /*Задание 3*/
 
-console.log(getMaxOfArray(arrNum));
-console.log(getMinOfArray(arrNum));
+// let timeCounter = 0;
 
-/*Задание 5*/
+// const timeInterval = setInterval(() => {
+//    console.log(new Date());
+//    timeCounter += 3;
+//    if (timeCounter >= 30) {
+//       clearInterval(timeInterval);
 
-function getRandomInt() {
-   return Math.floor(Math.random() * 10);
-}
+//       console.log('30 секунд прошло');
+//    }
+// }, 3000);
 
-console.log(getRandomInt());
+// /*Задание 4*/
 
-/*Задание 6*/
+// function delayForSecond(callback) {
+//    setTimeout(callback, 1000);
+// }
 
-function numRandom(num) {
-   const arr = [];
-   const n = Math.floor(num / 2);
+// delayForSecond(function () {
+//    console.log('Привет, Глеб!');
+// })
 
-   for (let i = 0; i < n; i++) {
-      arr.push(Math.floor(Math.random() * num + 1));
-   }
+// /*Задание 5*/
 
-   return arr;
-}
 
-console.log(numRandom(15));
+// function delayForSecond(cb) {
+//    setTimeout(() => {
+//       console.log('Прошла одна секунда');
+//       if (cb) {
+//          cb();
+//       }
+//    }, 1000);
+// }
 
-/*Задание 7*/
+// function sayHi(name) {
+//    console.log(`Привет, ${name}!`);
+// }
 
-function getRandomIntInclusive(min, max) {
-   min = Math.ceil(min);
-   max = Math.floor(max);
-   return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
-console.log(getRandomIntInclusive(5, 9));
-
-function getRandomArbitrary(min, max) {
-   return Math.random() * (max - min) + min;
-}
-
-console.log(getRandomArbitrary(5, 9));
-
-/*Задание 8*/
-
-let currentDate = new Date();
-
-console.log(currentDate);
-
-/*Задание 9*/
-
-let myDate = new Date();
-
-console.log(+myDate);
-
-let daysSeventyThree = 73 * 24 * 60 * 60 * 1000;
-let searchDate = +myDate + daysSeventyThree;
-let inSeventyThreeDays = new Date(searchDate);
-
-console.log(`Через 73 дня будет ${inSeventyThreeDays}`);
-console.log(`Сегодня ${myDate}`);
-
-/*Задание 10*/
-
-function ruDate() {
-   const currentDate = new Date();
-   const options = {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-   };
-   const optionsDay = {
-      weekday: 'long'
-   };
-   const formattedDate = currentDate.toLocaleDateString('ru-RU', options);
-   const formattedDay = currentDate.toLocaleDateString('ru-RU', optionsDay);
-
-   return console.log(`Дата: ${formattedDate} — это ${formattedDay}\nВремя: ${currentDate.toLocaleTimeString('ru-RU')}`);
-}
-ruDate()
-
-/*Задание 11. Работа с макетом*/
+// delayForSecond(() => sayHi('Глеб'))
